@@ -7,6 +7,9 @@ body {
 /* nav related styles */
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 }
 
 nav a {
@@ -17,15 +20,23 @@ nav a {
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px;
+    border: none;
 }
 
-nav >ul {
+nav>ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
     list-style: none;
     margin-right: 51px;
+    
 }
 
 .nav-title {
@@ -36,4 +47,20 @@ nav li {
 
 .color-change-r {
     color: #FD6E0A;
+}
+
+/* adding header color */
+.header{
+    background-color:#FFF8F3;
+}
+/* Adding Banner */
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .profile-pic{
+    width: 500px;
+    margin-right: 200px;
 }
